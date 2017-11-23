@@ -1,6 +1,7 @@
 ---
 date: '2013-11-23'
-publication_types: '1'
+publication_types:
+  - '1'
 selected: false
 published: true
 title: 'Mapas y drupal, o cómo no perderse en el intento'
