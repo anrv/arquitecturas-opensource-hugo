@@ -78,7 +78,7 @@ prose:
         field:
           element: "textarea"
           label: "Abstract"
-       - name: "image_preview"
+      - name: "image_preview"
         field:
           element: "text"
           label: "Imagen de portada (aparecerá en la home si se trata de una publicación destacada)"
