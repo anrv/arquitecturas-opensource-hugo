@@ -2,8 +2,8 @@
 date: 2016-04-20T00:00:00+02:00
 lastmod: 2017-09-03T00:00:00+02:00
 
-title: Getting started with the Academic framework for Hugo
-summary: "Create a beautifully simple personal or academic website in under 10 minutes."
+title: Plantilla de post
+summary: "Copy this post and modify it."
 
 # Check to true to unpublish this post.
 draft: true
