@@ -1,6 +1,5 @@
 ---
 date: '2013-11-23 14:09 +0100'
-draft: true
 publication_types: '1'
 selected: false
 published: true
