@@ -1,5 +1,5 @@
 ---
-date: '2013-11-23 14:09 +0100'
+date: '2013-11-23'
 publication_types: '1'
 selected: false
 published: true

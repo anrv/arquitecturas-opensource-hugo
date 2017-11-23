@@ -14,7 +14,6 @@ prose:
           element: "text"
           label: "Date"
           placeholder: "Fecha en formato aaaa-mm-dd (año-mes-día)"
-          value: CURRENT_DATETIME
       - mame: "title"
         field:
           element: "text"
