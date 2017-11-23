@@ -81,7 +81,7 @@ prose:
           element: "checkbox"
           label: "Publicación destacada"
           help: "Si esta opción está marcada, la publicación aparecerá en la home de forma destacada"
-          value: true
+          value: false
       - name: "projects"
         field:
           element: "multiselect"

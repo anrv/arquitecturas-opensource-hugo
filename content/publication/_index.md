@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: Publicaciones
 date: 2017-01-01T00:00:00Z
 highlight: false
 math: false
@@ -9,7 +9,7 @@ math: false
 #   1 = Detailed
 #   2 = APA
 #   3 = MLA
-list_format: 3
+list_format: 2
 
 # Optional featured image (relative to `static/img/` folder).
 header:
