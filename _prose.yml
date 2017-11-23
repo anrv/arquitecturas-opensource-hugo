@@ -20,9 +20,75 @@ prose:
           label: "Fecha"
           placeholder: "Fecha en formato aaaa-mm-dd (año-mes-día)"
           value: CURRENT_DATETIME
-      - draft:
+      - name: draft
         field:
           element: "checkbox"
           label: "Borrador"
           help: "Si esta opción está marcada, el contenido se guardará, pero no será publicado"
           value: true
+      - name: "authors"
+        field:
+          element: "multiselect"
+          label: "Autor(es) de la publicación"
+          alterable: true
+          options:
+            - name: "Ana Ruiz Varona"
+              value: "Ana Ruiz Varona"
+            - name: "Carlos Cámara Menoyo"
+              value: "Carlos Cámara Menoyo"
+      - name: "publication_types"
+        field:
+          element: "select"
+          label: "Tipo de publicación"
+          options:
+            - name: "Sin categorizar"
+              value: "0"
+            - name: "Conferencia"
+              value: "1"
+            - name: "Publicación en revista"
+              value: "2"
+            - name: "Publicación en curso"
+              value: "3"
+            - name: "Informe"
+              value: "4"
+            - name: "Libro"
+              value: "5"
+            - name: "Capítulo de libro"
+              value: "6"
+      - name: "publication"
+        field:
+          element: "text"
+          label: "Título de la publicación"
+      - name: "publication_short"
+        field:
+          element: "text"
+          label: "Título corto de la publicación"
+      - name: "abstract"
+          element: "textarea"
+          label: "Abstract"
+      - name: "image_preview"
+        field:
+          element: "text"
+          label: "Imagen de portada (aparecerá en la home si se trata de una publicación destacada)"
+          help: "Copia la imagen a `/static/img/publications/` y escribe la ruta de la imagen, relativa a la carpeta /static/img"
+      - name: "selected"
+        field:
+          element: "checkbox"
+          label: "Publicación destacada"
+          help: "Si esta opción está marcada, la publicación aparecerá en la home de forma destacada"
+          value: true
+      - name: "projects"
+        field:
+          element: "multiselect"
+          label: "Proyecto relacionado"
+          help: "Elije de la lista o escribe el nombre del proyecto tal y como está en la carpeta /content/project/nombre-proyecto.md sin el .md"
+          alterable: true
+          options:
+            - name: "Mapa de Riesgo Social de Zaragoza"
+              value: "mrsz"
+            - name: "Zaragoza Accesible"
+              value: "zaccesible"
+      - name: "url_pdf"
+          element: "text"
+          label: "URL del PDF"
+      
