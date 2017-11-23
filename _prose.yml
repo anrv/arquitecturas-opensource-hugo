@@ -47,7 +47,7 @@ prose:
               value: "Ana Ruiz Varona"
             - name: "Carlos Cámara Menoyo"
               value: "Carlos Cámara Menoyo"
-        - name: "publication_types"
+      - name: "publication_types"
         field:
           element: "select"
           label: "Tipo de publicación"
