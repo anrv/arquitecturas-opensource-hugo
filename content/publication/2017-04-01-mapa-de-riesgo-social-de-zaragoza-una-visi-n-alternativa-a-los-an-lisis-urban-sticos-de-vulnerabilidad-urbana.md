@@ -1,6 +1,7 @@
 ---
 date: '2017-04-01'
-publication_types: '2'
+publication_types:
+  - 2
 selected: false
 published: true
 title: >-
