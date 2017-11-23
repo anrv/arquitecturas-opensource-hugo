@@ -29,7 +29,6 @@ prose:
           element: "text"
           label: "Fecha"
           placeholder: "Fecha en formato aaaa-mm-dd (año-mes-día)"
-          value: CURRENT_DATETIME
       - name: "authors"
         field:
           element: "multiselect"
