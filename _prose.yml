@@ -8,6 +8,18 @@ prose:
     - login: "anrv"
       user: "Ana Ruiz Varona"
   metadata:
+    content/project:
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          placeholder: "Fecha en formato aaaa-mm-dd (año-mes-día)"
+          value: CURRENT_DATETIME
+      - mame: "title"
+        field:
+          element: "text"
+          label: "Título"
+
     content/publication:
       - name: "title"
         field:
@@ -91,4 +103,3 @@ prose:
       - name: "url_pdf"
           element: "text"
           label: "URL del PDF"
-      
