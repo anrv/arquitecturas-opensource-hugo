@@ -19,7 +19,6 @@ prose:
         field:
           element: "text"
           label: "Título"
-
     content/publication:
       - name: "title"
         field:
@@ -76,6 +75,7 @@ prose:
           element: "text"
           label: "Título corto de la publicación"
       - name: "abstract"
+        field:
           element: "textarea"
           label: "Abstract"
       - name: "image_preview"
@@ -101,5 +101,6 @@ prose:
             - name: "Zaragoza Accesible"
               value: "zaccesible"
       - name: "url_pdf"
+        field:
           element: "text"
           label: "URL del PDF"
