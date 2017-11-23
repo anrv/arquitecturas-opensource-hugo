@@ -37,3 +37,13 @@ prose:
           label: "Borrador"
           help: "Si esta opción está marcada, el contenido se guardará, pero no será publicado"
           value: true
+      - name: "authors"
+        field:
+          element: "multiselect"
+          label: "Autor(es) de la publicación"
+          alterable: true
+          options:
+            - name: "Ana Ruiz Varona"
+              value: "Ana Ruiz Varona"
+            - name: "Carlos Cámara Menoyo"
+              value: "Carlos Cámara Menoyo"
