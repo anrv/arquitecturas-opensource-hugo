@@ -42,7 +42,7 @@ prose:
               value: "Carlos Cámara Menoyo"
       - name: "publication_types"
         field:
-          element: "select"
+          element: "multiselect"
           label: "Tipo de publicación"
           options:
             - name: "Sin categorizar"
