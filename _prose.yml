@@ -8,7 +8,7 @@ prose:
     - login: "anrv"
       user: "Ana Ruiz Varona"
   metadata:
-    content/publications:
+    content/publication:
       - name: "title"
         field:
           element: "text"
