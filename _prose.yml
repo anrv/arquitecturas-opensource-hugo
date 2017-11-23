@@ -66,3 +66,7 @@ prose:
               value: "5"
             - name: "Capítulo de libro"
               value: "6"
+      - name: "publication"
+        field:
+          element: "text"
+          label: "Título de la publicación"
