@@ -19,3 +19,21 @@ prose:
         field:
           element: "text"
           label: "Título"
+    content/publication:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "El título de la publicación"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Fecha"
+          placeholder: "Fecha en formato aaaa-mm-dd (año-mes-día)"
+          value: CURRENT_DATETIME
+      - name: draft
+        field:
+          element: "checkbox"
+          label: "Borrador"
+          help: "Si esta opción está marcada, el contenido se guardará, pero no será publicado"
+          value: true
