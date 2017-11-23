@@ -3,7 +3,7 @@ date: '2013-11-23 14:09 +0100'
 draft: true
 publication_types: '1'
 selected: false
-published: false
+published: true
 title: 'Mapas y drupal, o cómo no perderse en el intento'
 authors:
   - Carlos Cámara Menoyo
